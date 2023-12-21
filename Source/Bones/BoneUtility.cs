@@ -1,9 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-#pragma warning disable IDE1006 // Naming Styles
-
-namespace LoonyLadle.Bones
+namespace Cerespirin.Bones
 {
 	public static class BoneUtility
 	{
@@ -15,13 +13,9 @@ namespace LoonyLadle.Bones
 			{
 				return specialBoneProduct;
 			}
-			else if (pawn.def.race.FleshType == FleshTypeDefOf.Insectoid)
-			{
-				return MyDefOf.LuluBones_Chitin;
-			}
 			else
 			{
-				return MyDefOf.LuluBones_Bone;
+				return MyDefOf.Bones_Bone;
 			}
 		}
 	}

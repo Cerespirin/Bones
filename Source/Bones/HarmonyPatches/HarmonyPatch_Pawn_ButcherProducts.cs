@@ -3,9 +3,7 @@ using RimWorld;
 using System.Collections.Generic;
 using Verse;
 
-#pragma warning disable IDE1006 // Naming Styles
-
-namespace LoonyLadle.Bones
+namespace Cerespirin.Bones
 {
 	[HarmonyPatch(typeof(Pawn), nameof(Pawn.ButcherProducts))]
 	public static class HarmonyPatch_Pawn_ButcherProducts
