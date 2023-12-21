@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Defs>
-	<ThingDef ParentName="WoodLog" Name="LuluBones_Bone">
-		<defName>LuluBones_Bone</defName>
+	<ThingDef ParentName="WoodLog" Name="Bones_Bone">
+		<defName>Bones_Bone</defName>
 		<label>bone</label>
 		<description>Bone from a vertebrate animal. Useful for building structures and sharp weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a bone can be used as a weapon.</description>
 		<graphicData>
@@ -22,8 +22,8 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
-	<ThingDef ParentName="LuluBones_Bone">
-		<defName>LuluBones_Thrumbone</defName>
+	<ThingDef ParentName="Bones_Bone">
+		<defName>Bones_Thrumbone</defName>
 		<label>thrumbone</label>
 		<description>Bone from a thrumbo. Light as a feather, nearly as strong as plasteel, and with a fetching purple coloration.</description>
 		<graphicData>
