@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Patch>
+	<!-- Add name to WoodLog so that bones can inherit from it. -->
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>Defs/ThingDef[defName="WoodLog"]</xpath>
+		<attribute>Name</attribute>
+		<value>WoodLog</value>
+	</Operation>
 
 	<!-- Adds bones to standard base things. -->
 	<Operation Class="PatchOperationAdd">
