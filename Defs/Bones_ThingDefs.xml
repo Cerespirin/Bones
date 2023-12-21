@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Defs>
+	<ThingDef ParentName="WoodLog" Name="Bones_Bone">
+		<defName>Bones_Bone</defName>
+		<label>bone</label>
+		<description>Bone from a vertebrate animal. Useful for building structures and sharp weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a bone can be used as a weapon.</description>
+		<graphicData>
+			<texPath>Cerespirin/Bones/Bone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(219,194,171)</color>
+		</graphicData>
+		<statBases>
+			<StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.4</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(219,194,171)</color>
+		</stuffProps>
+    <isTechHediff>false</isTechHediff>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef ParentName="Bones_Bone">
+		<defName>Bones_Thrumbone</defName>
+		<label>thrumbone</label>
+		<description>Bone from a thrumbo. Light as a feather, nearly as strong as plasteel, and with a fetching purple coloration.</description>
+		<graphicData>
+			<color>(191,151,235)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.2</Mass>
+			<StuffPower_Armor_Sharp>1.14</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
+			<SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<commonality>0.05</commonality>
+			<color>(191,151,235)</color>
+			<statFactors>
+				<MaxHitPoints>1.82</MaxHitPoints>
+				<Beauty>2</Beauty>
+				<Flammability>1</Flammability>
+				<WorkToMake>1.54</WorkToMake>
+				<WorkToBuild>1.54</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+			<statOffsets>
+				<Beauty>6</Beauty>
+			</statOffsets>
+		</stuffProps>
+	</ThingDef>
+</Defs>

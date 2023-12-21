@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Patch>
+	<!-- Adds name to wood logs so it can inherited from. -->
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>Defs/ThingDef[defName="WoodLog"]</xpath>
+		<attribute>Name</attribute>
+		<value>WoodLog</value>
+	</Operation>
 
 	<!-- Adds bones to standard base things. -->
 	<Operation Class="PatchOperationAdd">
@@ -12,15 +18,15 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[@Name="BaseInsect"]/statBases</xpath>
 		<value>
-			<BoneAmount>50</BoneAmount>
+			<BoneAmount>0</BoneAmount>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Thrumbo"]</xpath>
 		<value>
-			<li Class = "LoonyLadle.Bones.BoneProductExt">
-				<boneDef>LuluBones_Thrumbone</boneDef>
+			<li Class = "Cerespirin.Bones.BoneProductExt">
+				<boneDef>Bones_Thrumbone</boneDef>
 			</li>
 		</value>
 	</Operation>
@@ -30,8 +36,8 @@
 		<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs/li[text()="WoodLog"]</xpath>
 		<order>Append</order>
 		<value>
-			<li>LuluBones_Bone</li>
-			<li>LuluBones_Thrumbone</li>
+			<li>Bones_Bone</li>
+			<li>Bones_Thrumbone</li>
 		</value>
 	</Operation>
 
@@ -40,36 +46,26 @@
 		<xpath>Defs/ThingSetMakerDef//li[text()="WoodLog"]</xpath>
 		<order>Append</order>
 		<value>
-			<li>LuluBones_Bone</li>
-			<li>LuluBones_Thrumbone</li>
+			<li>Bones_Bone</li>
+			<li>Bones_Thrumbone</li>
 		</value>
 	</Operation>
 
-	<!-- Don't default allow bones or chitin to be used to make blunt weapons. -->
+	<!-- Don't default allow bones to be used to make blunt weapons. -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[@Name="BaseMeleeWeapon_Blunt"]/recipeMaker/defaultIngredientFilter/disallowedThingDefs</xpath>
 		<value>
-			<li>LuluBones_Bone</li>
-			<li>LuluBones_Chitin</li>
-			<li>LuluBones_Thrumbone</li>
+			<li>Bones_Bone</li>
+			<li>Bones_Thrumbone</li>
 		</value>
 	</Operation>
 
-	<!-- Don't default allow chitin to be used to make sharp weapons. -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[@Name="BaseMeleeWeapon_Sharp"]/recipeMaker/defaultIngredientFilter/disallowedThingDefs</xpath>
-		<value>
-			<li>LuluBones_Chitin</li>
-		</value>
-	</Operation>
-
-	<!-- Allow bone and chitin to be processed into chemfuel using the same recipe as for wood. -->
+	<!-- Allow bones to be processed into chemfuel using the same recipe as for wood. -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="Make_ChemfuelFromWood"]//thingDefs</xpath>
 		<value>
-			<li>LuluBones_Bone</li>
-			<li>LuluBones_Chitin</li>
-			<li>LuluBones_Thrumbone</li>
+			<li>Bones_Bone</li>
+			<li>Bones_Thrumbone</li>
 		</value>
 	</Operation>
 

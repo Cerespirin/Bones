@@ -1,9 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-#pragma warning disable IDE1006 // Naming Styles
-
-namespace LoonyLadle.Bones
+namespace Cerespirin.Bones
 {
 	[DefOf]
 	public static class MyDefOf
@@ -11,7 +9,6 @@ namespace LoonyLadle.Bones
 		static MyDefOf() => DefOfHelper.EnsureInitializedInCtor(typeof(MyDefOf));
 
 		public static StatDef BoneAmount;
-		public static ThingDef LuluBones_Bone;
-		public static ThingDef LuluBones_Chitin;
+		public static ThingDef Bones_Bone;
 	}
 }
