@@ -5,7 +5,7 @@
 		<label>bone</label>
 		<description>Bone from a vertebrate animal. Useful for building structures and sharp weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a bone can be used as a weapon.</description>
 		<graphicData>
-			<texPath>Lulu/Bones/Bone</texPath>
+			<texPath>Cerespirin/Bones/Bone</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(219,194,171)</color>
 		</graphicData>
@@ -67,7 +67,7 @@
 		<label>chitin</label>
 		<description>Chitin from the exoskeleton of a large insect. Useful for building strong structures and armor, but poorly suited for weapons. It cannot be burned unless first refined into chemfuel.</description>
 		<graphicData>
-			<texPath>Lulu/Bones/Chitin</texPath>
+			<texPath>Cerespirin/Bones/Chitin</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(156,148,125)</color>
 		</graphicData>
