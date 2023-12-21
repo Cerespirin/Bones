@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Defs>
-	<ThingDef ParentName="WoodLog" Name="LuluBones_Bone">
-		<defName>LuluBones_Bone</defName>
+	<ThingDef ParentName="WoodLog" Name="Bones_Bone">
+		<defName>Bones_Bone</defName>
 		<label>bone</label>
 		<description>Bone from a vertebrate animal. Useful for building structures and sharp weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a bone can be used as a weapon.</description>
 		<graphicData>
-			<texPath>Lulu/Bones/Bone</texPath>
+			<texPath>Cerespirin/Bones/Bone</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(219,194,171)</color>
 		</graphicData>
@@ -31,62 +31,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
-		<defName>LuluBones_Chitin</defName>
-		<label>chitin</label>
-		<description>Chitin from the exoskeleton of a large insect. Useful for building strong structures and armor, but poorly suited for weapons. It cannot be burned unless first refined into chemfuel.</description>
-		<graphicData>
-			<texPath>Lulu/Bones/Chitin</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(156,148,125)</color>
-		</graphicData>
-		<soundInteract>Wood_Drop</soundInteract>
-		<soundDrop>Wood_Drop</soundDrop>
-		<statBases>
-			<MarketValue>1.5</MarketValue>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>0.4</Mass>
-			<Flammability>1.0</Flammability>
-			<DeteriorationRate>0.5</DeteriorationRate>
-			<StuffPower_Armor_Sharp>1.08</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.68</SharpDamageMultiplier>
-			<BluntDamageMultiplier>0.68</BluntDamageMultiplier>
-		</statBases>
-		<stuffProps>
-			<categories>
-				<li>Woody</li>
-			</categories>
-			<commonality>0.1</commonality>
-			<color>(156,148,125)</color>
-			<constructEffect>ConstructWood</constructEffect>
-			<appearance>Smooth</appearance>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
-			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<statFactors>
-				<MaxHitPoints>1.2</MaxHitPoints>
-				<Beauty>0.5</Beauty>
-				<Flammability>0.5</Flammability>
-				<WorkToMake>1.6</WorkToMake>
-				<WorkToBuild>1.6</WorkToBuild>
-				<DoorOpenSpeed>1.2</DoorOpenSpeed>
-			</statFactors>
-			<statOffsets>
-				<Beauty>-1</Beauty>
-			</statOffsets>
-		</stuffProps>
-		<thingCategories>
-			<li>ResourcesRaw</li>
-		</thingCategories>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-	</ThingDef>
-
-	<ThingDef ParentName="LuluBones_Bone">
-		<defName>LuluBones_Thrumbone</defName>
+	<ThingDef ParentName="Bones_Bone">
+		<defName>Bones_Thrumbone</defName>
 		<label>thrumbone</label>
 		<description>Bone from a thrumbo. Light as a feather, nearly as strong as plasteel, and with a fetching purple coloration.</description>
 		<graphicData>

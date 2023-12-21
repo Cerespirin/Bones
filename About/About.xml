@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <ModMetaData>
-	<name>Bones and Chitin</name>
+	<name>Bones</name>
 	<author>Cerespirin</author>
 	<packageId>Cerespirin.RimWorld.Bones</packageId>
 	<description>Adds bones and chitin as new woody materials.</description>
