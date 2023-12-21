@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Patch>
 	<!-- Adds name to wood logs so it can inherited from. -->
-	<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAttributeAdd">
 		<xpath>Defs/ThingDef[defName="WoodLog"]</xpath>
 		<attribute>Name</attribute>
 		<value>WoodLog</value>
@@ -25,7 +25,7 @@
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Thrumbo"]</xpath>
 		<value>
-			<li Class = "LoonyLadle.Bones.BoneProductExt">
+			<li Class = "Cerespirin.Bones.BoneProductExt">
 				<boneDef>LuluBones_Thrumbone</boneDef>
 			</li>
 		</value>
