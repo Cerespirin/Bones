@@ -25,7 +25,7 @@
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Thrumbo"]</xpath>
 		<value>
-			<li Class = "LoonyLadle.Bones.BoneProductExt">
+			<li Class = "Cerespirin.Bones.BoneProductExt">
 				<boneDef>Bones_Thrumbone</boneDef>
 			</li>
 		</value>
