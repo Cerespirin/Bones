@@ -16,9 +16,10 @@
 			<BluntDamageMultiplier>0.4</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
+			<stuffAdjective/>
 			<color>(219,194,171)</color>
 		</stuffProps>
-    <isTechHediff>false</isTechHediff>
+		<isTechHediff>false</isTechHediff>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 

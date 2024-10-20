@@ -31,16 +31,6 @@
 		</value>
 	</Operation>
 
-	<!-- Allow bone to be used as fuel wherever wood is. -->
-	<Operation Class="PatchOperationInsert">
-		<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs/li[text()="WoodLog"]</xpath>
-		<order>Append</order>
-		<value>
-			<li>Bones_Bone</li>
-			<li>Bones_Thrumbone</li>
-		</value>
-	</Operation>
-
 	<!-- Groups bones with wood in ThingSetMakers; this mostly just prevents them from spawning in weapon stockpiles. -->
 	<Operation Class="PatchOperationInsert">
 		<xpath>Defs/ThingSetMakerDef//li[text()="WoodLog"]</xpath>
