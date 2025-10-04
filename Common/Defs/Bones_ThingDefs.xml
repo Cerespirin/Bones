@@ -7,7 +7,6 @@
 		<graphicData>
 			<texPath>Cerespirin/Bones/Bone</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(219,194,171)</color>
 		</graphicData>
 		<statBases>
 			<StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
@@ -20,16 +19,22 @@
 			<color>(219,194,171)</color>
 		</stuffProps>
 		<isTechHediff>false</isTechHediff>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<tools Inherit="False">
+			<li>
+				<label>bone</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
 	</ThingDef>
 
 	<ThingDef ParentName="Bones_Bone">
 		<defName>Bones_Thrumbone</defName>
 		<label>thrumbone</label>
 		<description>Bone from a thrumbo. Light as a feather, nearly as strong as plasteel, and with a fetching purple coloration.</description>
-		<graphicData>
-			<color>(191,151,235)</color>
-		</graphicData>
 		<statBases>
 			<MarketValue>10</MarketValue>
 			<Mass>0.2</Mass>
