@@ -18,5 +18,10 @@ namespace Cerespirin.Bones
 				return MyDefOf.Bones_Bone;
 			}
 		}
+
+		public static bool IsWoody(this ThingDef stuff)
+		{
+			return stuff.stuffProps.categories.Contains(StuffCategoryDefOf.Woody);
+		}
 	}
 }
