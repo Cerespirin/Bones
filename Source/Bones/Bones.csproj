@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoneUtility.cs" />
+    <Compile Include="HarmonyPatches\HarmonyPatch_SketchGenUtility_IsStuffAllowed.cs" />
     <Compile Include="MyStaticConstructor.cs" />
     <Compile Include="BoneProductExt.cs" />
     <Compile Include="HarmonyPatches\HarmonyPatch_Corpse_SpecialDisplayStats.cs" />
