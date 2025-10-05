@@ -4,9 +4,12 @@
 		<defName>Bones_Wraithbone</defName>
 		<label>wraithbone</label>
 		<description>Bone from some horrible creature.</description>
+		<graphicData>
+			<color>(84,91,90)</color>
+		</graphicData>
 		<stuffProps>
 			<commonality>0</commonality>
-			<color>(191,151,235)</color>
+			<color>(84,91,90)</color>
 		</stuffProps>
 	</ThingDef>
 </Defs>
