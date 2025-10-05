@@ -5,23 +5,8 @@ namespace Cerespirin.Bones
 {
 	public static class BoneUtility
 	{
-		public static ThingDef GetBoneProductFor(Pawn pawn)
-		{
-			ThingDef specialBoneProduct = pawn.def.GetModExtension<BoneProductExt>()?.boneDef;
+		public static ThingDef GetBoneProductFor(Pawn pawn) => pawn.def.GetModExtension<BoneProductExt>()?.boneDef ?? MyDefOf.Bones_Bone;
 
-			if (specialBoneProduct != null)
-			{
-				return specialBoneProduct;
-			}
-			else
-			{
-				return MyDefOf.Bones_Bone;
-			}
-		}
-
-		public static bool IsWoody(this ThingDef stuff)
-		{
-			return stuff.stuffProps.categories.Contains(StuffCategoryDefOf.Woody);
-		}
+		public static bool IsWoody(this ThingDef stuff) => stuff.stuffProps.categories.Contains(StuffCategoryDefOf.Woody);
 	}
 }
