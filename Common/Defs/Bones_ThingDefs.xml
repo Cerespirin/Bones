@@ -41,6 +41,9 @@
 		<stuffProps>
 			<commonality>0.05</commonality>
 			<color>(169,128,191)</color>
+			<statOffsets>
+				<Beauty>6</Beauty>
+			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>1.82</MaxHitPoints>
 				<Beauty>2</Beauty>
@@ -49,9 +52,6 @@
 				<WorkToBuild>1.54</WorkToBuild>
 				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
-			<statOffsets>
-				<Beauty>6</Beauty>
-			</statOffsets>
 		</stuffProps>
 	</ThingDef>
 </Defs>
