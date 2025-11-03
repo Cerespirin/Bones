@@ -30,8 +30,8 @@
 			<color>(169,128,191)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>10</MarketValue>
-			<Mass>0.2</Mass>
+			<MarketValue>9</MarketValue>
+			<Mass>0.25</Mass>
 			<StuffPower_Armor_Sharp>1.14</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
@@ -45,11 +45,10 @@
 				<Beauty>6</Beauty>
 			</statOffsets>
 			<statFactors>
-				<MaxHitPoints>1.82</MaxHitPoints>
+				<MaxHitPoints>1.725</MaxHitPoints>
 				<Beauty>2</Beauty>
-				<Flammability>1</Flammability>
-				<WorkToMake>1.54</WorkToMake>
-				<WorkToBuild>1.54</WorkToBuild>
+				<WorkToMake>1.45</WorkToMake>
+				<WorkToBuild>1.45</WorkToBuild>
 				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
