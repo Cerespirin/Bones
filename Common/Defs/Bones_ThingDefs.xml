@@ -27,7 +27,7 @@
 		<label>thrumbone</label>
 		<description>Bone from a thrumbo. Light as a feather, nearly as strong as plasteel, and with a fetching purple coloration.</description>
 		<graphicData>
-			<color>(177,151,191)</color>
+			<color>(169,128,191)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>10</MarketValue>
@@ -40,7 +40,7 @@
 		</statBases>
 		<stuffProps>
 			<commonality>0.05</commonality>
-			<color>(177,151,191)</color>
+			<color>(169,128,191)</color>
 			<statFactors>
 				<MaxHitPoints>1.82</MaxHitPoints>
 				<Beauty>2</Beauty>

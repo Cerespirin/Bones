@@ -10,4 +10,4 @@ When searching with DuckDuckGo for "bone rgb" four of the top five results agree
 
 Normalizing the HSV value of E3DAC9 against RimWorld's "white" gives me an RGB of AAA498. This color is distressingly similar to silver's ingame color of B4AD96, which I did not find acceptable. Matching the HSV value of "white" rather than normalizing against it gave me BFB7AA or (191, 183, 170), a much more distinct color that I liked.
 
-From there I needed to come up with a color for thrumbone. This was fairly simple; I took the triadic complementary color of regular bone and doubled the saturation, giving a nice muted purple color of B197BF or (177, 151, 191).
+From there I needed to come up with a color for thrumbone. This was fairly simple; I took the triadic complementary color of regular bone and tripled the saturation, giving a nice muted purple color of B197BF or (169, 128, 191).
