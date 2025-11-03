@@ -7,7 +7,7 @@
 		<graphicData>
 			<texPath>Cerespirin/Bones/Bone</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(219,194,171)</color>
+			<color>(191,183,170)</color>
 		</graphicData>
 		<statBases>
 			<StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
@@ -17,10 +17,9 @@
 		</statBases>
 		<stuffProps>
 			<stuffAdjective/>
-			<color>(219,194,171)</color>
+			<color>(191,183,170)</color>
 		</stuffProps>
 		<isTechHediff>false</isTechHediff>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
 	<ThingDef ParentName="Bones_Bone">
@@ -28,11 +27,11 @@
 		<label>thrumbone</label>
 		<description>Bone from a thrumbo. Light as a feather, nearly as strong as plasteel, and with a fetching purple coloration.</description>
 		<graphicData>
-			<color>(191,151,235)</color>
+			<color>(169,128,191)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>10</MarketValue>
-			<Mass>0.2</Mass>
+			<MarketValue>9</MarketValue>
+			<Mass>0.25</Mass>
 			<StuffPower_Armor_Sharp>1.14</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
@@ -41,18 +40,17 @@
 		</statBases>
 		<stuffProps>
 			<commonality>0.05</commonality>
-			<color>(191,151,235)</color>
-			<statFactors>
-				<MaxHitPoints>1.82</MaxHitPoints>
-				<Beauty>2</Beauty>
-				<Flammability>1</Flammability>
-				<WorkToMake>1.54</WorkToMake>
-				<WorkToBuild>1.54</WorkToBuild>
-				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
-			</statFactors>
+			<color>(169,128,191)</color>
 			<statOffsets>
 				<Beauty>6</Beauty>
 			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1.725</MaxHitPoints>
+				<Beauty>2</Beauty>
+				<WorkToMake>1.45</WorkToMake>
+				<WorkToBuild>1.45</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
 		</stuffProps>
 	</ThingDef>
 </Defs>
